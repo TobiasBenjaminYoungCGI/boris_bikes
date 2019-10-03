@@ -19,6 +19,10 @@ class DockingStation
     @bikes << bike
   end
 
+  def all_bikes
+    @bikes
+  end
+
   private
 
   def full?
